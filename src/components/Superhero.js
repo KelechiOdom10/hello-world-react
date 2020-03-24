@@ -12,3 +12,13 @@ function Superhero(props) {
   }
 
   export default Superhero
+
+
+  function Attributes(props) {
+      return(
+        <div>
+            <p><b>{props.title}</b>{props.value}</p>
+        </div>
+
+      )
+  }
