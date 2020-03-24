@@ -6,17 +6,22 @@ function App() {
   return (
       <div className="App">
         <h1>Superheroes</h1>
-        <p><b>Superhero:</b>Spiderman</p>
-        <p><b>Strength:</b>Web shooting</p>
-        <p><b>Weaknesses:</b>Likes women too much</p>
-        <p><b>Enemy:</b>Dr. Octopus</p>
+        <Superhero name = "Spiderman" strength = "Shooting webs" weakness = "likes women" enemy = "Dr.Octopus" />
         <br />
-        <p><b>Superhero:</b>Batman</p>
-        <p><b>Strength:</b>Super Rich</p>
-        <p><b>Weaknesses:</b>Childhood trauma</p>
-        <p><b>Enemy:</b>Joker</p>
+        <Superhero name = "Batman" strength = "Super Rich" weakness = "childhood trauma" enemy = "Joker" />
       </div>
   );
+}
+
+function Superhero(props) {
+  return(
+    <div>
+      <p><b>Superhero:</b> {props.name}</p>
+      <p><b>Strength:</b> {props.strength}</p>
+      <p><b>Weaknesses:</b> {props.weakness}</p>
+      <p><b>Enemy:</b> {props.enemy}</p>
+    </div>
+  )
 }
 
 export default App;
