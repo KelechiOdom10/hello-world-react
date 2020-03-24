@@ -1,24 +1,16 @@
 import React from 'react'
+import Attributes from './Attributes'
 
 function Superhero(props) {
     return(
       <div>
-        <p><b>Superhero:</b> {props.name}</p>
-        <p><b>Strength:</b> {props.strength}</p>
-        <p><b>Weaknesses:</b> {props.weakness}</p>
-        <p><b>Enemy:</b> {props.enemy}</p>
+        <Attributes title = "Superhero:" value = {props.name} />
+        <Attributes title = "Strength:" value = {props.strength} />
+        <Attributes title = "Weaknesses:" value = {props.weakness} />
+        <Attributes title = "Enemy:" value = {props.enemy} />
       </div>
     )
   }
 
   export default Superhero
 
-
-  function Attributes(props) {
-      return(
-        <div>
-            <p><b>{props.title}</b>{props.value}</p>
-        </div>
-
-      )
-  }
