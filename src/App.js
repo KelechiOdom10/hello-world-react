@@ -14,7 +14,7 @@ function App() {
           <Card.Content>
             <Card.Header>Spider-man</Card.Header>
             <Card.Meta>
-              <span className='date'>Founded in 1988</span>
+              <span className='date'>Founded in 1962</span>
             </Card.Meta>
             <Card.Description>
               Spider-man shoots webs for fun
@@ -29,11 +29,11 @@ function App() {
         </Card>
 
         <Card>
-          <Image class ='imgg' src='../assets/batman.jpg' wrapped ui={false} />
+          <Image src='../assets/batman.jpg' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Batman</Card.Header>
             <Card.Meta>
-              <span className='date'>Founded in 1938</span>
+              <span className='date'>Founded in 1939</span>
             </Card.Meta>
             <Card.Description>
               Batman beats up poor people for fun
@@ -52,7 +52,7 @@ function App() {
           <Card.Content>
             <Card.Header>Hulk</Card.Header>
             <Card.Meta>
-              <span className='date'>Founded in 1838</span>
+              <span className='date'>Founded in 1962</span>
             </Card.Meta>
             <Card.Description>
               Smashes bad guys consistently
@@ -67,11 +67,11 @@ function App() {
         </Card>
 
         <Card>
-          <Image class ='imgg' src='../assets/iron-man.jpg' wrapped ui={false} />
+          <Image src='../assets/iron-man.jpg' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Iron-Man</Card.Header>
             <Card.Meta>
-              <span className='date'>Founded in 1932</span>
+              <span className='date'>Founded in 1963</span>
             </Card.Meta>
             <Card.Description>
               He is a billionare, philanthropist, playboy 
@@ -85,6 +85,8 @@ function App() {
           </Card.Content>
         </Card>
       </div>
+      <br />
+      <Button>Find out More</Button>
 
       {/* <br />
       <Superhero name = "Spiderman" strength = "Shooting webs" weakness = "likes women" enemy = "Dr.Octopus" />
