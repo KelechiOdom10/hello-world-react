@@ -10,7 +10,7 @@ function App() {
       <h1>Superheroes</h1>
       <div id = 'cards'>
         <Card>
-          <Image  src='../assets/spidermanSV.jpg' wrapped ui={false} />
+          <Image src='../assets/spidermanSV.jpg' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Spider-man</Card.Header>
             <Card.Meta>
