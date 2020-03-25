@@ -24,6 +24,7 @@ function App() {
             <a>
               <Icon name='user' />
               50,300,500 Fans
+              1 fan
             </a>
           </Card.Content>
         </Card>
