@@ -23,8 +23,7 @@ function App() {
           <Card.Content extra>
             <a>
               <Icon name='user' />
-              50,300,500 Fans
-              1 fan
+              50,300,500 Fan
             </a>
           </Card.Content>
         </Card>
